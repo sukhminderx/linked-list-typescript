@@ -4,7 +4,7 @@ import "./App.css";
 import { LinkedList } from "./SinglyLinkedList";
 
 function App() {
-  /* below contains algo ADT */
+  /* below contains Singly Linked List ADT */
   // create the linked list
   const linkedList = new LinkedList();
 
@@ -54,8 +54,16 @@ function App() {
   console.log('after deleteList');
   linkedList.traverseAndPrintNode();
 
+  /* above contains Singly Linked List ADT */
 
-  /* above contains algo ADT */
+  /* ------------------------------------- */
+  
+  /* below contains Doubly Linked List ADT */
+  
+  /* above contains Doubly Linked List ADT */
+
+  /* ------------------------------------- */
+
   return (
     <div className="App">
       <header className="App-header">
